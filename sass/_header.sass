@@ -1,0 +1,125 @@
+.container
+    // max-width: 312px
+    
+    margin: 0 auto
+    padding-left: 35px
+    padding-right: 35px
+
+
+header
+    background: url(../img/header.jfif) 
+    background-position: center center
+  
+    background-size: cover
+    // height: 275px
+    position: relative
+    z-index: 4
+
+header::before
+    content: ''
+    position: absolute
+    background-color: rgba(198, 108, 73, 0.4)
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    z-index: -1
+.navbar
+    // background-position: center center
+    display: flex
+    padding-top: 39px
+    min-width: 211px
+    justify-content: space-between
+    align-items: center
+    position: relative
+h1
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    margin: 0 auto
+    
+
+.burger
+    width: 24px
+    height: 21px
+    display: flex
+    flex-direction: column
+    justify-content: space-evenly
+    &_span
+        width: 24px
+        height: 2px
+        display: block
+        background-color: white
+      
+
+.header
+    &_text
+        margin-top: 47px
+        padding-bottom: 50px
+        text-align: center
+        a
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            /* identical to box height */
+
+            text-decoration-line: underline;
+
+            color: #FFFFFF;
+
+
+        &__1
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+           
+            
+
+            color: #FFFFFF;
+        &__2
+            margin-top: 13px
+            margin-bottom: 41px
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 16px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+
+
+.menu
+    padding-left: 0
+    position: absolute
+    top: 62px
+    left: -7px
+    li
+        list-style-type: none
+        
+        a
+            text-decoration: none
+            font-family: Libre Franklin;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            /* identical to box height */
+
+
+            color: #FFFFFF;
+
+.toggle
+    display: none
